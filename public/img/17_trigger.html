@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+  </style>
+</head>
+
+<body>
+  <input><button>百度一下</button>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script>
+    //点击按钮获得文本框中用户输入的关键词
+    $("button").click(function(){
+              //复习jquery第一天
+      var kw=$(":text").val();//复习jquery第二天
+      //    复习js高级第三天
+      if(kw.trim()!==""){
+        console.log(`搜索 ${kw} 相关的信息...`)
+      }
+    });
+    //也想实现在文本框上按回车键时，执行和点击按钮一模一样的查找操作
+    //复习jquery第一天
+    //         键盘按下
+    $(":text").keydown(function(e){
+      //e.keyCode专门接受这次按的按键号的特殊属性
+      //console.log(e.keyCode)
+      //只有按的是回车键时，才执行搜索操作
+      if(e.keyCode==13){
+        //找到搜索按钮，并触发按钮上的单击事件处理函数
+        //$("button").trigger("click");
+        $("button").click();
+      }
+    })
+  </script>
+</body>
+
+</html>

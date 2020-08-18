@@ -1,0 +1,115 @@
+.header_nav {
+	width: 100%;
+	height: 34px;
+	border-bottom: 1px solid #eee;
+
+}
+
+.nav {
+	line-height: 34px;
+	font-size: 12px;
+	color: #868686;
+	position: relative;
+}
+
+.nav_left {}
+
+.nav_right {
+	/* margin-left: 550px; */
+	position: absolute;
+	right: 0;
+}
+
+.nav a {
+	font-size: 13px;
+	color: #868686;
+	padding: 0 6px;
+}
+
+.logo_nav {
+	height: 90px;
+	line-height: 90px;
+	position: relative;
+}
+
+.logo_nav img {
+	margin-bottom: 10px;
+}
+
+.logo_nav span {
+	font-size: 30px;
+	color: #8999
+}
+
+.logo_nav span.right_info {
+	font-size: 14px;
+	color: #868686;
+	/* margin-left: 550px; */
+	position: absolute;
+	right: 0;
+}
+/* 导航结束 */
+.cutting{
+	border-bottom: 2px solid #999;
+	padding-top: 30px;
+}
+#cutting_reg{
+	margin-left: 50px;
+	color: #868686;
+	font-size: 18px;
+}
+/* 注册主体 */
+.reg_info{
+	position: relative;
+}
+.reg_left{
+	height: 500px;
+	border: 1px solid #eee;
+	border-right: none;
+	width: 500px;
+}
+.reg_right{
+	height: 500px;
+	border: 1px solid #eee;
+	width: 600px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.table_info{
+	color: #868686;
+}
+.reg_right button{
+	background-color: orange;
+	outline: none;
+	border: none;
+}
+.reg_right button:hover{
+	background-color: orange;
+	outline: none;
+}
+.reg_right input{
+	border-radius: 5px;
+	border: 1px solid #eee;
+}
+#log_window{
+	background-color: white;
+	display: none;
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top:100px;
+	right: 20%;
+	z-index: 10;
+	box-shadow: 5px 5px 10px 10px #868686;
+}
+#log_window a{
+	color: orange;
+	font-size: 18px;
+	position: absolute;
+	top:35%;
+	left:32%;
+}
+#log_window p{
+	color: orange;
+}

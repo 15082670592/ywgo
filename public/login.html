@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>欢迎登陆义乌购</title>
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+	</head>
+	<body>
+		<!-- 顶部开始 -->
+		<div class="header">
+			<div class="row w">
+				<div class="col-2"><img src="img/logo.jpg"></div>
+				<div class="col-7"></div>
+				<div class="col-3">
+					<p><a href="">返回首页</a><a href="">注册会员</a><a href="">帮助中心</a></p>
+					<p>如有问题请拨打服务热线: <span>0579-81530000</span></p>
+				</div>
+			</div>
+		</div>
+		<!-- 登陆板块开始 -->
+		<div class="login w">
+			<!-- 账号登录 -->
+			<div class="Log" id="Log">
+				<a href="javascript:" class="log_a" id="Log_a"></a>
+				<table align="center" cellpadding="10">
+					<tr>
+						<th>账号密码</th>
+						<td></td>
+					</tr>
+					<tr>
+						<td>账号</td>
+						<td><input type="text" id="phone" placeholder="请输入账号/手机号"></td>
+					</tr>
+					<tr>
+						<td>密码</td>
+						<td><input type="password" id="pwd"></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td align="right"><a href="#">找回账号密码？</a></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td align="right"><button>登录</button></td>
+					</tr>
+					<tr>
+						<td>
+							<a href=""><img src="img/qq.png" alt="" width="30" height="30"></a>
+							<a href=""><img src="img/wx.png" alt="" width="30" height="30"></a>
+						</td>
+						<td align="right"><a href="register.html">免费注册</a></td>
+					</tr>
+				</table>
+			</div>
+			<!-- 扫码登录 -->
+			<div class="code" id="code">
+				<a href="javascript:" class="code_a" id="code_a"></a>
+				<table cellpadding="10">
+					<tr>
+						<th>扫码登录</th>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><img src="img/qrcode.jfif" width="150" height="150"></td>
+					</tr>
+					<tr>
+						<td><img src="img/saoma.png" width="30" height="30"></td>
+						<td>
+							<p>打开<span>义乌购app</span>|<span>合众商户版app</span></p>
+							<p>扫一扫登录</p>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td align="right">
+							<p>密码登录&nbsp;&nbsp;<a href="register.html">免费注册</a></p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/login.js"></script>
+	</body>
+</html>

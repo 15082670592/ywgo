@@ -1,0 +1,72 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1012119",
+      "name": "用户",
+      "font_class": "user",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "1037684",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "2681693",
+      "name": "火",
+      "font_class": "huo",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "6536070",
+      "name": "文件-对接记录",
+      "font_class": "wj-djjl",
+      "unicode": "e72d",
+      "unicode_decimal": 59181
+    },
+    {
+      "icon_id": "8875694",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "9557800",
+      "name": "信息",
+      "font_class": "xinxi",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "11592728",
+      "name": "排行2 ",
+      "font_class": "danyehuaban",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "12685020",
+      "name": "信息",
+      "font_class": "icon_huabanfuben",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "12753674",
+      "name": "相机",
+      "font_class": "xiangji_huaban",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    }
+  ]
+}

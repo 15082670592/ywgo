@@ -1,0 +1,105 @@
+.header{
+	border-bottom: 2px solid #FF6600;
+	height: 70px;
+	line-height: 60px;
+	position: relative;
+}
+.header a{
+	font-size: 14px;
+	margin-left: 10px;
+}
+.header p+p{
+	font-size: 12px;
+	color: #999999;
+	position: absolute;
+	top: 20px;
+	right: 50px;
+}
+.header span{
+	color: #FF7417;
+}
+/* 登陆板块 */
+.login{
+	background: url(../img/loginbannerleft.png) no-repeat;
+	border-bottom: 1px solid #999999;
+	height: 550px;
+	position: relative;
+}
+.Log{
+	width: 350px;
+	height: 400px;
+	border: 1px solid #d9d9d9;
+	border-radius: 4px;
+	box-shadow: 8px 8px 8px #d9d9d9;
+	background-color: #fff;
+	position: absolute;
+	top: 50px;
+	right: 20px;
+}
+.Log .log_a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url(../img/icons.png) no-repeat 0px -1530px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+.Log table{
+	position: absolute;
+	top: 40px;
+	left: 30px;
+}
+.Log th{
+	font-size: 18px;
+	border-bottom: 5px solid #999999;
+}
+.Log table td input{
+	background-color: #FFFFE0;
+	height: 35px;
+	width: 200px;
+	border: 1px solid #d9d9d9;
+}
+.Log button{
+	width: 200px;
+	height: 40px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	color: white;
+	background-color: #EB4F38;
+	cursor: pointer;
+}
+.code{
+	width: 350px;
+	height: 400px;
+	border: 1px solid #d9d9d9;
+	border-radius: 4px;
+	box-shadow: 8px 8px 8px #d9d9d9;
+	background-color: #fff;
+	position: absolute;
+	top: 50px;
+	right: 20px;
+	display: none;
+}
+.code .code_a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url(../img/icons.png) no-repeat 0px -1580px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+.code table{
+	position: absolute;
+	top: 30px;
+	left: 15px;
+}
+.code p{
+	color: #999999;
+	font-size: 12px;
+}
+.code p span{
+	color: orange;
+}

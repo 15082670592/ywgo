@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'yw_ico';
+	src: url('../font/iconfont.eot?st5xlr');
+	src: url('../font/iconfont.eot?st5xlr#iefix') format('embedded-opentype'),
+		url('../font/iconfont.ttf?st5xlr') format('truetype'),
+		url('../font/iconfont.woff?st5xlr') format('woff'),
+		url('../font/iconfont.svg?st5xlr#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.w{
+	margin: 0 auto;
+	width: 1100px;
+}
+i{
+	font-family: 'yw_ico';
+	font-style: normal;
+}
